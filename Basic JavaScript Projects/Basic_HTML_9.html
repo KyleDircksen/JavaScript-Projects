@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+    <script src="JS/Basic_JavaScript_9.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/Basic_CSS_1.css">
+</head>
+<body>
+    
+    <p>How many seconds would you like to set your alarm for?</p>
+    <input id="Seconds" value=""/>
+    <button onclick="Countdown()">Click Here!</button>
+    <p id="Timer"></p>
+
+    <!-- Slideshow Container-->
+    <div class="slideshow-container">
+
+        <!--Full width Images with captions-->
+        <div class="mySlides fade" style="display: block;">
+            <div class="numbertext">1 / 3</div>
+            <img src="Images/Bronson.jpg" style="width:100%" alt="Santa Cruz Bronson">
+            <div class="text">The Santa Cruz Bronson</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Images/5010.jpg" style="width:100%" alt="Santa Cruz 5010">
+            <div class="text">The Santa Cruz 5010</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Images/Tallboy.jpg" style="width:100%" alt="Santa Cruz Tallboy">
+            <div class="text">The Santa Cruz Tallboy</div> 
+        </div>
+
+        <!--Next and Previous Buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+
+    <!-- Dots and Circles-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</body>
+</html>
