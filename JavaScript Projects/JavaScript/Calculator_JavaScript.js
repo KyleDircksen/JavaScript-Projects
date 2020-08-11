@@ -58,9 +58,9 @@ function Handle_Operator(Next_Operator) {
         //Perform_calculation object and the function that matches the operator is executed
         let result = Perform_Calculation[operator](Value_Now, Value_of_Input);
         //here we add a fixed amount of numbers after the decimal to be used
-        result = Number(result).toFixed(9)
+        //result = Number(result).toFixed(9)
         //this will remove any trailing 0's
-        result = (result * 1).toString()
+        //result = (result * 1).toString()
         Calculator.Display_Value = (result);
         Calculator.First_Operand = result;
     }
